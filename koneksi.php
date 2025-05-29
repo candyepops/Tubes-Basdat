@@ -13,4 +13,8 @@ if (!$koneksi) {
     error_log("Koneksi gagal: " . mysqli_connect_error());
     exit;
 }
+git add .
+git commit -m "init"
+git push origin main
+
 ?>
